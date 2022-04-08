@@ -2,8 +2,11 @@
 
 ## To run site locally:
 Clone the repo. 
+
 Cd into docs folder. 
+
 Run command: bundle exec jekyll serve. 
+
 Open web browser window and enter the following into URL: http://localhost:4000. 
 
 ## Requirements and Setup
