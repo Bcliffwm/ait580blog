@@ -1,0 +1,4 @@
+#.gitignore
+/docs/site
+/docs/Gemfile
+/docs/Gemfile.lock
