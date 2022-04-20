@@ -8,5 +8,5 @@ image: /assets/images/Whiteboard.png
 
 This is a demonstration!
 
-![]({{ page.image }})
+![]({{ page.image | relative_url }})
 
