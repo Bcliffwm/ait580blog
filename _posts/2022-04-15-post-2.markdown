@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Here's post 2!"
+title:  "Metadata"
 date:   2022-04-15 10:22:52 -0400
 categories: jekyll update
-image: /assets/images/platform1_pie_charts.png
+image: /assets/images/Meta_dATA.jpg
 ---
-# Pie charts from another project
-What we are trying to achieve here is to emulate the site building process for our final blog.
+# Jupyter Notebook image
 ![]({{ page.image }})
+This image captures the metadata of the healthcare data this blog's analysis is based on. 
