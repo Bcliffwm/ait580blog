@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Metadata"
-date:   2022-04-15 10:22:52 -0400
+date:   2022-04-16 10:22:52 -0400
 categories: jekyll update
-image: /assets/images/Meta_dATA.jpg
+image: /assets/images/metadata.jpg
 ---
 # Jupyter Notebook image
-![]({{ page.image }})
+![]({{ page.image | relative_url }})
 This image captures the metadata of the healthcare data this blog's analysis is based on. 

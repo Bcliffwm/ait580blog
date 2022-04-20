@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   This site will be used for our final project, a blog about healthcare analytics. The main
   topic will be focusing on the trend of consumption of resources in relation to the supplies
   or resources available in the healthcare system.
-baseurl: "ait580blog" # the subpath of your site, e.g. /blog
+baseurl: "/ait580blog" # the subpath of your site, e.g. /blog
 url: "Bcliffwm/Bcliffwm.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  Bcliffwm
