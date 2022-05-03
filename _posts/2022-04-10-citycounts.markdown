@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Cities Count Histogram"
-date:   2022-04-20 09:22:52 -0400
+date:   2022-04-10 09:22:52 -0400
 categories: jekyll update
 image: /assets/images/statecounts.png
 ---

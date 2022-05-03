@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Here's post 1!"
-date:   2022-04-15 09:22:52 -0400
+title:  "Data Curation"
+date:   2022-04-30 09:22:52 -0400
 categories: jekyll update
 image: /assets/images/Whiteboard.png
 ---
