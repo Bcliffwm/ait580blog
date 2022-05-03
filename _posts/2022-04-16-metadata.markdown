@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Metadata"
+date:   2022-04-16 10:22:52 -0400
+categories: jekyll update
+images-array:
+ - image: metadata.jpg
+   alt: This is some alt text
+ - image: statecounts.png
+   alt: This is some alt text
+ - image: Whiteboard.png
+   alt: This is some alt text
+---
+# Jupyter Notebook image
+# ![]({{ page.image | relative_url }})
+<div>
+{% for item in post.images-array %}
+    <img class="{{ img-responsive }}" src="assets/images/{{ item.image }}" alt="{{ item.alt }}>
+{% endfor %}
+</div>
+These images capture the metadata of the healthcare data this blog's analysis is based on. 
