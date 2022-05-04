@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-image: assets/images/Whiteboard.png
+
 ---
 ## Our Project
 Drawing from our experiences living with the COVID-19 pandemic for more than 2 years, we wanted to study people's willingness to take preventative measures against

@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Hypothesis Testing"
-date:   2022-05-01 13:22:52 -0400
+title:  "Hypothesis"
+date:   2022-04-08 13:22:52 -0400
 categories: jekyll update
 image: /assets/images/SexDistHistogram.png
 ---
@@ -18,4 +18,7 @@ We read our data into a Pandas dataframe in our local Python environment and the
 
 Before sending the data through scipy.stats's t-test_ind function, we needed to preprocess the data as the function could not handle numbers with such large precision values. To work around this issue, we passed the data through scipy.special's logsumexp function, which returns the log sum of the exponent of the input.  
 
-<img src="/ait580blog/assets/images/PlacesUSA.png" alt="New Image" style="width:500px;height:250px">
+# Hypothesis Test Results
+<img src="/ait580blog/assets/images/finalResults.jpeg" alt="New Image" style="width:1000px;height:180px">  
+
+Above is a screenshot of our student t-test. As the p-value < 0.05, we fail to reject the null hypothesis, meaning that the variance in mean between the men and women's mean rates of CDC prevention compliance cannot be assumed to be different. In other words, we lack sufficient data-driven evidence to suggest that means between the men and women of this study to make any further inferences.
