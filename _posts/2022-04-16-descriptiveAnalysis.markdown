@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Metadata"
+title:  "Descriptive Analysis"
 date:   2022-04-16 10:22:52 -0400
 categories: jekyll update
 image: /assets/images/metadata.jpg
