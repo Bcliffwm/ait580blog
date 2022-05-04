@@ -5,3 +5,12 @@ date:   2022-05-03 10:22:52 -0400
 categories: jekyll update
 ---
 # Our Story
+<img src="/ait580blog/assets/images/icon.png" style="width:200px;height:200px">  
+
+In 2020, the world changed indefinitely. 
+
+We are no longer living in the same world we used to live in prior to COVID-19. In the current post-pandemic era, Public Health has become a center-piece conversation on news channels, broadcasts, universities, and college campuses. The devastating effects of COVID19 still are felt now 2 years later. As graduate students studying Big Data, we wanted to explore a dataset that was based in the real world to answer this important question: How is real world data interpreted to gain more insight into estimating the impact and limitations of a particular health initiative? 
+
+There are known COVID-19 infections that are present in 176 countries–making the pandemic the most significant threat to humanity since World War II. Unlike the second world war, the outbreak of the coronavirus crisis had been anticipated by public health researchers. For years infectious disease specialists have been raising the alarm and spreading awareness about an outbreak. What were some of the limitations for their research–and data to be spread to the public?  
+
+A big part of the limitations that we will touch on our project, is the lack of availability for consistent, clean data that can inform trend lines. We have chosen to explore data directly from CDC (Centers for Disease Control). As part of our graduate work, we will cover data from PLACES (Population Level Analysis Community Estimates), which is a collaboration between CDC, the Robert Wood Johnson Foundation, and the CDC Foundation. PLACES provides us with health data for small areas across the country–which in turn, allows local health departments, and jurisdictions (regardless of population size and rurarility) to better understand the burden and geographic distribution of health measures in their respective areas while assisting them with planning public health interventions.
