@@ -17,3 +17,5 @@ Upon inspecting the graph, we notice that the men seemed to have an overall high
 We read our data into a Pandas dataframe in our local Python environment and then proceeded to separate the data into male and female dataframe objects. We then calculated the mean values of the preventative measures percentage columns for both the male and female dataframes. Then we aggregated the means by state. 
 
 Before sending the data through scipy.stats's t-test_ind function, we needed to preprocess the data as the function could not handle numbers with such large precision values. To work around this issue, we passed the data through scipy.special's logsumexp function, which returns the log sum of the exponent of the input.  
+
+<img src="/ait580blog/assets/images/PlacesUSA.png" alt="New Image" style="width:500px;height:250px">
