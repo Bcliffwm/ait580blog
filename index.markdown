@@ -5,7 +5,7 @@
 layout: home
 image: assets/images/Whiteboard.png
 ---
-## Our Motivation for this Project
+## Our Project
 Drawing from our experiences living with the COVID-19 pandemic for more than 2 years, we wanted to study people's willingness to take preventative measures against
 other common diseases such as flu, various forms of cancer, etc. 
 ## Dataset
