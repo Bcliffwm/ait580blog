@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Data Curation"
-date:   2022-04-30 09:22:52 -0400
+date:   2022-04-25 09:22:52 -0400
 categories: jekyll update
 ---
 

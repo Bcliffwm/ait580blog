@@ -18,12 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Bethlehem and Ben's amazing blog
+title: A Look into ‘Healthy Aging’ - Exploring older patients (65+) that are up to date with clinical preventative measures
 email: bcliff@gmu.edu
 description: >- # this means to ignore newlines until "baseurl:"
   This site will be used for our final project, a blog about healthcare analytics. The main
-  topic will be focusing on the trend of consumption of resources in relation to the supplies
-  or resources available in the healthcare system.
+  topic will be focusing on the trends of men and women's compliance with CDC preventative measure guidelines.
 baseurl: "/ait580blog" # the subpath of your site, e.g. /blog
 url: "Bcliffwm/Bcliffwm.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb

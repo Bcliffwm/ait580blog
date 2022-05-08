@@ -1,17 +1,22 @@
 ---
 layout: post
 title:  "Results and Findings"
-date:   2022-04-08 13:22:52 -0400
+date:   2022-05-07 08:22:52 -0400
 categories: jekyll update
 image: /assets/images/SexDistHistogram.png
 ---
+After exploring the data further, we drew a histogram to look at the distribution of gender in the original dataset. Below you will see an ‘overlaid histogram’ that is showing the men in the data set (in blue) and the women (in red). We can see from the histogram that the data is more or less normally distributed. There appears to be a left skew for the women, but it is not a drastic view by any means. 
 
+
+# Histogram of Prevention Rates: Men (Blue) and Women (Red)
 ![]({{ page.image | relative_url }})
-
-# Graph
 Above is an overlaid histogram of the male and female prevention rates and a box-and-whisker plot. The purpose of creating the histogram is to see if our data were normally distributed across both sexes, which seems to be the case with a slight skew to the left. The hypothesis we decided to work from was to determine if there are any variances in the preventative measures succeession rates between males and females. Therefore, we selected the student t-test as our measurement tool.
 
 Upon inspecting the graph, we notice that the men seemed to have an overall higher success rate in satisfying the CDC's preventative measures guidelines than the women. This observation ran contrary to Ben's expectations as he predicted the contrary.
+
+# Hypothesis Testing 
+From the dataset we can see that there is normal distribution for both genders, but we wanted to take this a step further and understand if there were any variances in the preventative measure of success rates across genders. Our method of choice for measurement was the student t-test. It seems that the men of this study have an overall higher success rate in satisfying the CDC’s preventative measure guidelines. This observation is contrary to our initial expectations since we predicted that women would satisfy the preventative measures at a higher success rate than the men. Studies show that women are more likely to attend checkups, and follow up on preventative health measures than men [4].   
+
 
 # Methodology
 We read our data into a Pandas dataframe in our local Python environment and then proceeded to separate the data into male and female dataframe objects. We then calculated the mean values of the preventative measures percentage columns for both the male and female dataframes. Then we aggregated the means by state. 
