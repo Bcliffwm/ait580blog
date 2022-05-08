@@ -14,17 +14,17 @@ For our blog site deployment and source control, we used GitHub Pages and GitHub
 
 A Breakdown of the Technical requirements for this project: 
 
-Code Environment:
+***Code Environment***:
 We utilized the Visual Studio Code IDE as well as its Jupyter Notebook plugin to develop the code.  
 
-Data Pre-Processing and Cleaning: 
-We took in raw data from the CDC website and removed outliers, and zoomed into the columns that we needed to analyze 
-The data reading and manipulations were mostly handled by the Pandas library, namely the unique dataframe object.  
+***Data Pre-Processing and Cleaning***: 
+We extracted the raw data from the PLACES website and removed extraneous columns while retaining the columns that we needed to analyze. 
+The data reading and manipulations were handled by the Pandas library, namely the unique dataframe object.  
 
-Data Analysis:
+***Data Analysis***:
 The Hypothesis testing was conducted using the Scipy library in Python.   
 
-Data Visualizations:
+***Data Visualizations***:
 The Visualizations were created using the Plotly library and the geospatial visual used Plotly, Shapely, and GeoPandas.
 
 

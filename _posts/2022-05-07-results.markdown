@@ -7,7 +7,6 @@ image: /assets/images/SexDistHistogram.png
 ---
 After exploring the data further, we drew a histogram to look at the distribution of gender in the original dataset. Below you will see an ‘overlaid histogram’ that is showing the men in the data set (in blue) and the women (in red). We can see from the histogram that the data is more or less normally distributed. There appears to be a left skew for the women, but it is not a drastic view by any means. 
 
-
 # Histogram of Prevention Rates: Men (Blue) and Women (Red)
 ![]({{ page.image | relative_url }})
 Above is an overlaid histogram of the male and female prevention rates and a box-and-whisker plot. The purpose of creating the histogram is to see if our data were normally distributed across both sexes, which seems to be the case with a slight skew to the left. The hypothesis we decided to work from was to determine if there are any variances in the preventative measures succeession rates between males and females. Therefore, we selected the student t-test as our measurement tool.
@@ -15,15 +14,26 @@ Above is an overlaid histogram of the male and female prevention rates and a box
 Upon inspecting the graph, we notice that the men seemed to have an overall higher success rate in satisfying the CDC's preventative measures guidelines than the women. This observation ran contrary to Ben's expectations as he predicted the contrary.
 
 # Hypothesis Testing 
-From the dataset we can see that there is normal distribution for both genders, but we wanted to take this a step further and understand if there were any variances in the preventative measure of success rates across genders. Our method of choice for measurement was the student t-test. It seems that the men of this study have an overall higher success rate in satisfying the CDC’s preventative measure guidelines. This observation is contrary to our initial expectations since we predicted that women would satisfy the preventative measures at a higher success rate than the men. Studies show that women are more likely to attend checkups, and follow up on preventative health measures than men [4].   
+From the dataset we can see that there is normal distribution for both genders in respect to the success rate of CDC preventative measure compliance. However, we wanted to take this a step further and understand if there were any variances in the preventative measure of success rates across genders. Our method of choice for measurement was the student t-test. The conditions of our dataset satisfied the requirements of a student t-test such as an even distribution of the two samples (equal numbers of men and women participants) and that the factor of sex is an independent variable. 
 
+This means that the null hypothesis we tested against, in the context of measuring variance in the success rate of CDC preventative measures compliance across sexes, was there is no variance between the mean success rates of men and women. The alternative hypothesis then would mean that there is a variance or difference between the mean success rates of men and women for CDC preventative measure compliance.
+ 
+
+## Hypothesis Test
+
+
+In the analysis section, we are testing whether or not the null hypothesis is valid. Please see below for the null hypothesis testing and the methodology we followed.  
+
+***Null Hypothesis***: Men and Women’s mean rate of preventative measures success are identical.  
+***Alternative Hypothesis***: Men and Women’s mean rate of preventative measures success are different.   
 
 # Methodology
 We read our data into a Pandas dataframe in our local Python environment and then proceeded to separate the data into male and female dataframe objects. We then calculated the mean values of the preventative measures percentage columns for both the male and female dataframes. Then we aggregated the means by state. 
 
-Before sending the data through scipy.stats's t-test_ind function, we needed to preprocess the data as the function could not handle numbers with such large precision values. To work around this issue, we passed the data through scipy.special's logsumexp function, which returns the log sum of the exponent of the input.  
+Before sending the data through scipy.stats's t-test_ind function, we needed to preprocess the data as the function could not handle numbers with such large precision values. To work around this issue, we passed the data through scipy.special's logsumexp function, which returns the log sum of the exponent of the input. 
 
-# Hypothesis Test Results
-<img src="/ait580blog/assets/images/finalResults.jpeg" alt="New Image" style="width:1000px;height:180px">  
+# Results
+<img src="/ait580blog/assets/images/finalResults.jpeg" alt="New Image" style="width:1000px;height:180px">    
 
-Above is a screenshot of our student t-test. As the p-value < 0.05, we fail to reject the null hypothesis, meaning that the variance in mean between the men and women's rates of CDC prevention compliance cannot be assumed to be different. In other words, we lack sufficient, data-driven evidence to make any further inferences in the means between the men's and women's prevention measure rates of this study.
+
+Above is a screenshot of our student t-test. As the p-value is less than 0.05, we can safely reject the null hypothesis, meaning that there is evidence that a variance in means between the men's rate and women's rate of CDC prevention compliance exists. In other words, the probability that the t-statistic (5.022%) actually existing within a 95% confidence interval of our data was so insignificant, that we cannot assume the null hypothesis to be the truth.
