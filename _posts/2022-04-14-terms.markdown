@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "Terms Used"
+date:   2022-04-14 09:22:52 -0400
+categories: jekyll update
+---
+Below are some of the terms we have used in the project:
+
+**PLACES**: Population Level Analysis Community Estimates  
+
+**CDC**: Center for Disease Control  
+
+**WHO**:  World Health Organization  
+
+**Regression Model**: ​​A regression model provides a function that describes the relationship between one or more independent variables and a response, dependent, or target variable.  
+
+**Logistic Regression**:Logistic regression is a process of modeling the probability of a discrete outcome given an input variable.  
+
+**Dengue**: Dengue is a mosquito-borne viral disease that has rapidly spread to all regions of WHO in recent years.  
+
+**Ebola**: Ebola Virus Disease (EVD) is a rare and deadly disease in people and nonhuman primates.  
+
+**SARS**: Severe acute respiratory syndrome (SARS) is a viral respiratory disease caused by a SARS-associated coronavirus.  
+
+**H1N1**: The H1N1 flu, commonly known as swine flu, is primarily caused by the H1N1 strain of the flu (influenza) virus.  
+
+**Zika**: Zika virus disease is caused by a virus transmitted primarily by Aedes mosquitoes, which bite during the day.  
+
+**Pandas**: Pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language.  
+
+**Python**: Python is a high-level, interpreted, general-purpose programming language.  
