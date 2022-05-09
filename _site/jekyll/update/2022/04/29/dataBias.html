@@ -7,8 +7,8 @@
 <meta name="generator" content="Jekyll v3.9.0" />
 <meta property="og:title" content="Dataset Limitations" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Potential Bias" />
-<meta property="og:description" content="Potential Bias" />
+<meta name="description" content="Potential Bias While exploring initial questions for this project, we discovered that the data we had from PLACES was not comprehensive enough, which we suspect will lead to potential bias. We highly recommend gathering additional data and conducting ‘Logistic Regression’ to analyze how the preventative measures correspond to immunization rates. A further study incorporating these components would help uncover more patterns regarding prevenative care measures across the country which would be highly beneficial to the CDC." />
+<meta property="og:description" content="Potential Bias While exploring initial questions for this project, we discovered that the data we had from PLACES was not comprehensive enough, which we suspect will lead to potential bias. We highly recommend gathering additional data and conducting ‘Logistic Regression’ to analyze how the preventative measures correspond to immunization rates. A further study incorporating these components would help uncover more patterns regarding prevenative care measures across the country which would be highly beneficial to the CDC." />
 <link rel="canonical" href="http://localhost:4000/ait580blog/jekyll/update/2022/04/29/dataBias.html" />
 <meta property="og:url" content="http://localhost:4000/ait580blog/jekyll/update/2022/04/29/dataBias.html" />
 <meta property="og:site_name" content="A Look into ‘Healthy Aging’ - Exploring older patients (65+) that are up to date with clinical preventative measures" />
@@ -17,7 +17,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Dataset Limitations" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-04-29T08:22:52-04:00","datePublished":"2022-04-29T08:22:52-04:00","description":"Potential Bias","headline":"Dataset Limitations","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/ait580blog/jekyll/update/2022/04/29/dataBias.html"},"url":"http://localhost:4000/ait580blog/jekyll/update/2022/04/29/dataBias.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-04-29T08:22:52-04:00","datePublished":"2022-04-29T08:22:52-04:00","description":"Potential Bias While exploring initial questions for this project, we discovered that the data we had from PLACES was not comprehensive enough, which we suspect will lead to potential bias. We highly recommend gathering additional data and conducting ‘Logistic Regression’ to analyze how the preventative measures correspond to immunization rates. A further study incorporating these components would help uncover more patterns regarding prevenative care measures across the country which would be highly beneficial to the CDC.","headline":"Dataset Limitations","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/ait580blog/jekyll/update/2022/04/29/dataBias.html"},"url":"http://localhost:4000/ait580blog/jekyll/update/2022/04/29/dataBias.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/ait580blog/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/ait580blog/feed.xml" title="A Look into ‘Healthy Aging’ - Exploring older patients (65+) that are up to date with clinical preventative measures" /></head>
 <body><header class="site-header" role="banner">
@@ -48,18 +48,17 @@
 
   <div class="post-content e-content" itemprop="articleBody">
     <h2 id="potential-bias">Potential Bias</h2>
+<p>While exploring initial questions for this project, we discovered that the data we had from PLACES was not comprehensive enough, which we suspect will lead to potential bias. We highly recommend gathering additional data and conducting ‘Logistic Regression’ to analyze how the preventative measures correspond to immunization rates. A further study incorporating these components would help uncover more patterns regarding prevenative care measures across the country which would be highly beneficial to the CDC.</p>
+
+<p>Looking into the very nature of the dataset, we can see where the bias might have originated, as participant data was collected over the phone. The default answer to each phone question could have been a “yes”, leading to a ‘false positive’ result in the preventative measure data. This reason alone may explain why the response rate or signal is relatively low (approximately 35% across all states and regions).
+Some states such as California and Texas have staggeringly larger numbers of people participating per location, compared to low-participation rate states such as Alaska or North Dakota. While this trend should make logical sense if the motivation is to study as many people as possible, the consequence or potential source of bias manifests in the lack of representation of less populated areas of the country. To further emphasize this point, states like California and Texas that have higher populations and population densities than states such as Alaska or Wyoming, have cities with population sizes that far surpass the most populous cities in low population and low population density states. Hence, the lack of even distribution among states presents a potential ‘confirmation bias’ which makes our analysis inconclusive.</p>
+
 <p><img src="/ait580blog/assets/images/biasimage.jpeg" style="width=100px;height=220px" /></p>
 
-<p>We identified a few weaknesses of the dataset where bias may affect ongoing or future analysis predicated on this dataset and datasets curated in a similar fashion.</p>
-
-<p>First, this dataset is a survey over the phone to various participants across the country whose responses must all be ‘yes’ to every preventative measure the CDC outlines in its guidelines in order to be counted in the survey. For this reason alone, this may explain why the response rate or signal is relatively low (approximately 35% across all states and regions).</p>
-
-<p>Second, some states such as California and Texas have staggeringly larger numbers of participating locations than other states such as Alaska or North Dakota. While this trend should makes logical sense if the motivation is to study as many people as possible, the consequence or potential source of bias manifests in the lack of representation of less populated areas of the country. To further emphasize this point, states like California and Texas that have higher populations and population densities than states such as Alaska or Wyoming, have cities with population sizes that far surpass the most populous cities in low population and low population density states.</p>
-
-<h3 id="ca-and-tx-population-cross-tabulation">CA and TX Population Cross Tabulation</h3>
+<h2 id="ca-and-tx-population-cross-tabulation">CA and TX Population Cross Tabulation</h2>
 <p><img src="/ait580blog/assets/images/bigCrosstab.jpeg" /></p>
 
-<h3 id="wy-and-ak-population-cross-tabulation">WY and AK Population Cross Tabulation</h3>
+<h2 id="wy-and-ak-population-cross-tabulation">WY and AK Population Cross Tabulation</h2>
 <p><img src="/ait580blog/assets/images/smallCrosstab.jpeg" /></p>
 
 <p>The state of Wyoming has one city surveyed with a population size ranging between 50,000 to 100,000 people, whereas Texas and California have 18 and 55 cities surveyed respectively within the same population range.</p>
